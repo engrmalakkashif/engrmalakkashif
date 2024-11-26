@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Engr Malak Kashif
-- 👀 I’m interested in React JS
-- 🌱 I’m currently learning JavaScript and React Js
-- 💞️ I’m looking to collaborate on Web Development 
+- 👀 I’m interested in DevOps
+- 🌱 I’m currently learning Linux, Git, GitHub, Docker etc
+- 💞️ I’m looking to collaborate on DevOps Engineer 
 - 📫 How to reach me engrmalakkashif@gmail.com
 
 <!---
