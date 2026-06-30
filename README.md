@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Engr Kashif Khan
 - 👀 I’m Cloud Infrastructure Engineer
-- 🌱 I’m currently learning Kubernetes, Teraform, Ansible, Docker and Cloud Services
+- 🌱 I’m currently learning Kubernetes, Terraform, Ansible, Docker, and Cloud Services
 - 💞️ I’m looking to collaborate on DevOps Engineer 
 - 📫 How to reach me engrmalakkashif@gmail.com
 
