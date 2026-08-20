@@ -40,7 +40,7 @@ My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerizat
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,vmware,linux,ubuntu,docker,kubernetes,terraform,ansible,jenkins,git,github,bash,py" />
+<img src="https://skillicons.dev/icons?i=aws,linux,ubuntu,docker,kubernetes,terraform,ansible,jenkins,git,github,bash,py" />
 
 </div>
 
@@ -214,7 +214,7 @@ flowchart LR
 <img src="https://github-readme-stats.vercel.app/api?username=engrmalakkashif&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=engrmalakkashif&theme=tokyonight&hide_border=true" height="170"/>
+<img src="https://streak-stats.demolab.com/?user=engrmalakkashif&theme=tokyonight&hide_border=true" height="170"/>
 
 </div>
 
