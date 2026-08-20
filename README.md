@@ -7,7 +7,7 @@
 **Building secure, scalable, highly available, and automated cloud infrastructure.**
 
 [![Email](https://img.shields.io/badge/Email-engrmalakkashif%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:engrmalakkashif@gmail.com)
-[![AWS](https://img.shields.io/badge/AWS-Certified%20Focus-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
+[![AWS](https://img.shields.io/badge/AWS-Cloud%20Focus-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
 [![VMware](https://img.shields.io/badge/VMware-ESXi%20%7C%20vCenter-607078?style=flat-square&logo=vmware&logoColor=white)](#)
 [![Sangfor](https://img.shields.io/badge/Sangfor-HCI%20%7C%20Cloud-005BAC?style=flat-square)](#)
 [![Profile Views](https://komarev.com/ghpvc/?username=engrmalakkashif&style=flat-square&color=blue)](https://github.com/engrmalakkashif)
@@ -16,7 +16,7 @@
 
 ---
 
-## About Me
+## 👋 About Me
 
 I'm a **Cloud Infrastructure & DevOps Engineer** focused on designing, automating, deploying, and maintaining reliable infrastructure and application delivery platforms.
 
@@ -36,7 +36,7 @@ My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerizat
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
 <div align="center">
 
@@ -46,7 +46,7 @@ My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerizat
 
 ---
 
-## Cloud & Infrastructure — AWS
+## ☁️ Cloud & Infrastructure — AWS
 
 | Category | Services |
 |---|---|
@@ -57,7 +57,7 @@ My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerizat
 
 ---
 
-## DevOps & CI/CD
+## 🔄 DevOps & CI/CD
 
 - Git & GitHub
 - Jenkins, GitHub Actions
@@ -66,31 +66,34 @@ My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerizat
 - Deployment strategies and rollback practices
 - Production-grade deployment workflows
 
-### Typical Delivery Flow
-
 ```mermaid
-flowchart TD
-    A[Developer] --> B[GitHub]
-    B --> C[CI/CD Pipeline<br/>Jenkins / GitHub Actions]
-    C --> D[Build]
-    C --> E[Test]
-    C --> F[Security Checks]
-    D --> G[Docker Image]
-    E --> G
-    F --> G
-    G --> H[Container Registry]
-    H --> I[AWS]
-    I --> J[Application Load Balancer]
-    I --> K[EC2 / Auto Scaling]
-    I --> L[RDS]
-    J --> M[Monitoring & Logging<br/>CloudWatch / CloudTrail]
-    K --> M
-    L --> M
+flowchart LR
+    subgraph S1["1. Source & CI/CD"]
+        direction LR
+        A[Developer] --> B[GitHub] --> C[CI/CD Pipeline<br/>Jenkins / Actions]
+    end
+
+    subgraph S2["2. Build & Registry"]
+        direction LR
+        C --> D[Build, Test & Sec] --> E[Docker Image] --> F[Registry]
+    end
+
+    subgraph S3["3. AWS Cloud"]
+        direction LR
+        F --> G[ALB] --> H[EC2 / Auto Scaling]
+        H <--> I[(RDS)]
+    end
+
+    subgraph S4["4. Monitoring"]
+        J[CloudWatch / CloudTrail]
+    end
+
+    S3 --> J
 ```
 
 ---
 
-## Infrastructure as Code
+## 🏗️ Infrastructure as Code
 
 **Terraform**
 - AWS infrastructure provisioning
@@ -106,7 +109,7 @@ flowchart TD
 
 ---
 
-## Containers & Kubernetes
+## 🐳 Containers & Kubernetes
 
 **Docker**
 - Dockerfiles, images, and containers
@@ -122,7 +125,7 @@ flowchart TD
 
 ---
 
-## Security & DevSecOps
+## 🔐 Security & DevSecOps
 
 Security is treated as part of the infrastructure and deployment lifecycle, not an afterthought.
 
@@ -136,7 +139,7 @@ Security is treated as part of the infrastructure and deployment lifecycle, not 
 
 ---
 
-## Monitoring & Observability
+## 📊 Monitoring & Observability
 
 - AWS CloudWatch — Metrics, Logs, Alarms
 - CloudTrail — audit and activity logging
@@ -145,13 +148,13 @@ Security is treated as part of the infrastructure and deployment lifecycle, not 
 
 ---
 
-## Linux & System Administration
+## 🐧 Linux & System Administration
 
 Ubuntu · CentOS · Linux Networking · Users & Permissions · SSH · systemd · Disk & Filesystem Management · EBS Volume Management · Package Management · Bash Scripting · Log Analysis · Performance Troubleshooting
 
 ---
 
-## Virtualization & On-Premises Infrastructure
+## 🖥️ Virtualization & On-Premises Infrastructure
 
 Building and managing on-prem and hybrid infrastructure alongside cloud environments, bridging traditional virtualization with modern cloud practices.
 
@@ -174,7 +177,7 @@ Building and managing on-prem and hybrid infrastructure alongside cloud environm
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 ### ☁️ AWS Production Infrastructure
 Designing production-style AWS environments: **VPC → ALB → Auto Scaling → EC2 → RDS**, with security, monitoring, logging, and high-availability practices built in.
@@ -193,7 +196,7 @@ Managing on-prem virtualized environments with **VMware ESXi, vCenter, and Sangf
 
 ---
 
-## Current Learning Roadmap
+## 🗺️ Current Learning Roadmap
 
 ```mermaid
 flowchart LR
@@ -207,20 +210,28 @@ flowchart LR
 
 ---
 
-## GitHub Statistics
+## 📈 GitHub Statistics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=engrmalakkashif&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <!-- Main Banner: Stats Overview & Top Languages side-by-side -->
+  <a href="https://github.com/engrmalakkashif">
+    <img src="https://github-stats-extended.vercel.app/api?username=engrmalakkashif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="Engr Malak Kashif's GitHub Stats" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide_progress=false" height="165" alt="Top Languages" />
+  </a>
 
-<img src="https://streak-stats.demolab.com/?user=engrmalakkashif&theme=tokyonight&hide_border=true" height="170"/>
+  <br />
+
+  <!-- Secondary Row: Interactive Yearly Activity Graph -->
+  <a href="https://github.com/engrmalakkashif">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=engrmalakkashif&theme=tokyonight&hide_border=true&area=true&bg_color=1a1b26" width="95%" alt="GitHub Contribution Graph" />
+  </a>
 
 </div>
 
 ---
 
-## Let's Connect
+## 🤝 Let's Connect
 
 I'm always interested in connecting and collaborating on **Cloud, AWS, DevOps, Infrastructure, Kubernetes, Automation, and DevSecOps** projects.
 
