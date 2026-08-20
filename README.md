@@ -1,351 +1,235 @@
-# 👋 Hi, I'm Engr. Kashif Khan
+<div align="center">
 
-### ☁️ Cloud Infrastructure Engineer | DevOps Engineer | AWS
+# Hi, I'm Kashif Khan 👋
 
-> **Building secure, scalable, highly available and automated cloud infrastructure.**
+### Cloud Infrastructure Engineer · DevOps Engineer · AWS
 
-I’m a **Cloud Infrastructure & DevOps Engineer** focused on designing, automating, deploying, and maintaining reliable infrastructure and application delivery platforms.
+**Building secure, scalable, highly available, and automated cloud infrastructure.**
 
-My current focus includes **AWS Cloud, Infrastructure as Code, CI/CD, containerization, Kubernetes, Linux administration, automation, monitoring, and DevSecOps**.
+[![Email](https://img.shields.io/badge/Email-engrmalakkashif%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:engrmalakkashif@gmail.com)
+[![AWS](https://img.shields.io/badge/AWS-Certified%20Focus-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
+[![VMware](https://img.shields.io/badge/VMware-ESXi%20%7C%20vCenter-607078?style=flat-square&logo=vmware&logoColor=white)](#)
+[![Sangfor](https://img.shields.io/badge/Sangfor-HCI%20%7C%20Cloud-005BAC?style=flat-square)](#)
+[![Profile Views](https://komarev.com/ghpvc/?username=engrmalakkashif&style=flat-square&color=blue)](https://github.com/engrmalakkashif)
 
----
-
-## 🧑‍💻 About Me
-
-* ☁️ Cloud Infrastructure & DevOps Engineer
-* 🚀 AWS infrastructure design & automation
-* 🏗️ Infrastructure as Code using Terraform
-* 🔄 CI/CD pipeline development and automation
-* 🐳 Containerization with Docker
-* ☸️ Kubernetes & container orchestration
-* ⚙️ Server automation with Ansible
-* 🐧 Linux system administration
-* 🔐 Cloud security & DevSecOps practices
-* 📊 Monitoring, logging & observability
-* 📈 High Availability, scalability & production infrastructure
-* 🤝 Open to collaborating on **Cloud, DevOps & Infrastructure projects**
+</div>
 
 ---
 
-## ☁️ Cloud & Infrastructure
+## About Me
 
-### AWS
+I'm a **Cloud Infrastructure & DevOps Engineer** focused on designing, automating, deploying, and maintaining reliable infrastructure and application delivery platforms.
 
-**Compute**
+My current focus spans **AWS Cloud, Infrastructure as Code, CI/CD, containerization, Kubernetes, Linux administration, automation, monitoring, and DevSecOps**.
 
-* EC2
-* Auto Scaling Groups
-* Launch Templates
-
-**Networking**
-
-* VPC
-* Public & Private Subnets
-* Route Tables
-* Internet Gateway
-* NAT Gateway
-* Security Groups
-* Network ACL
-* Application Load Balancer
-
-**Storage & Database**
-
-* S3
-* EBS
-* RDS
-
-**Security & Management**
-
-* IAM
-* KMS
-* CloudTrail
-* CloudWatch
-* Route 53
+- ☁️ Designing and automating AWS cloud infrastructure
+- 🏗️ Infrastructure as Code with Terraform
+- 🔄 Building and maintaining CI/CD pipelines
+- 🐳 Containerizing applications with Docker
+- ☸️ Learning and applying Kubernetes orchestration
+- ⚙️ Automating server configuration with Ansible
+- 🖥️ Managing on-prem virtualization with VMware ESXi, vCenter, and Sangfor Cloud
+- 🐧 Administering and hardening Linux systems
+- 🔐 Practicing cloud security and DevSecOps
+- 📊 Implementing monitoring, logging, and observability
+- 🤝 Open to collaborating on **Cloud, DevOps, and Infrastructure** projects
 
 ---
 
-## 🚀 DevOps & CI/CD
+## Tech Stack
 
-* Git & GitHub
-* Jenkins
-* GitHub Actions
-* CI/CD Pipeline Design
-* Automated Build & Testing
-* Automated Deployment
-* Deployment Strategies
-* Infrastructure Automation
-* Production Deployment Practices
+<div align="center">
 
-### 🔄 Typical Delivery Flow
+<img src="https://skillicons.dev/icons?i=aws,vmware,linux,ubuntu,docker,kubernetes,terraform,ansible,jenkins,git,github,bash,py" />
 
-```text
-Developer
-    │
-    ▼
-  GitHub
-    │
-    ▼
-CI/CD Pipeline
-(Jenkins / GitHub Actions)
-    │
-    ├── Build
-    ├── Test
-    └── Security Checks
-    │
-    ▼
-   Docker
-    │
-    ▼
-Container Registry
-    │
-    ▼
-   AWS
-    │
-    ├── ALB
-    ├── EC2 / ASG
-    └── RDS
-    │
-    ▼
-Monitoring & Logging
-(CloudWatch / CloudTrail)
+</div>
+
+---
+
+## Cloud & Infrastructure — AWS
+
+| Category | Services |
+|---|---|
+| **Compute** | EC2, Auto Scaling Groups, Launch Templates |
+| **Networking** | VPC, Public/Private Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups, Network ACLs, Application Load Balancer |
+| **Storage & Database** | S3, EBS, RDS |
+| **Security & Management** | IAM, KMS, CloudTrail, CloudWatch, Route 53 |
+
+---
+
+## DevOps & CI/CD
+
+- Git & GitHub
+- Jenkins, GitHub Actions
+- CI/CD pipeline design and automation
+- Automated build, test, and deployment
+- Deployment strategies and rollback practices
+- Production-grade deployment workflows
+
+### Typical Delivery Flow
+
+```mermaid
+flowchart TD
+    A[Developer] --> B[GitHub]
+    B --> C[CI/CD Pipeline<br/>Jenkins / GitHub Actions]
+    C --> D[Build]
+    C --> E[Test]
+    C --> F[Security Checks]
+    D --> G[Docker Image]
+    E --> G
+    F --> G
+    G --> H[Container Registry]
+    H --> I[AWS]
+    I --> J[Application Load Balancer]
+    I --> K[EC2 / Auto Scaling]
+    I --> L[RDS]
+    J --> M[Monitoring & Logging<br/>CloudWatch / CloudTrail]
+    K --> M
+    L --> M
 ```
 
 ---
 
-## 🏗️ Infrastructure as Code
+## Infrastructure as Code
 
-### Terraform
+**Terraform**
+- AWS infrastructure provisioning
+- Reusable, modular configurations
+- Variables, outputs, and remote state
+- Environment-based infrastructure (dev/stage/prod)
+- Version-controlled infrastructure
 
-* AWS infrastructure provisioning
-* Reusable modules
-* Variables & outputs
-* Remote state concepts
-* Infrastructure automation
-* Environment-based infrastructure
-* Infrastructure version control
-
-### Ansible
-
-* Server provisioning
-* Configuration management
-* Application deployment
-* Playbooks
-* Roles
-* Automated server configuration
+**Ansible**
+- Server provisioning and configuration management
+- Application deployment automation
+- Playbooks and roles
 
 ---
 
-## 🐳 Containers & Kubernetes
+## Containers & Kubernetes
 
-### Docker
+**Docker**
+- Dockerfiles, images, and containers
+- Docker Compose for multi-container apps
+- Container networking and volumes
 
-* Dockerfiles
-* Images & Containers
-* Docker Compose
-* Container networking
-* Volumes
-* Containerized application deployment
-
-### Kubernetes
-
-Currently developing practical knowledge in:
-
-* Pods
-* Deployments
-* Services
-* ConfigMaps
-* Secrets
-* Namespaces
-* Ingress
-* Persistent Volumes
-* Kubernetes networking
-* Application deployment & scaling
+**Kubernetes** *(actively building hands-on experience)*
+- Pods, Deployments, Services
+- ConfigMaps, Secrets, Namespaces
+- Ingress and networking
+- Persistent Volumes
+- Application scaling
 
 ---
 
-## 🔐 Security & DevSecOps
+## Security & DevSecOps
 
-Security is treated as part of the infrastructure and deployment lifecycle.
+Security is treated as part of the infrastructure and deployment lifecycle, not an afterthought.
 
-* IAM & least-privilege access
-* Security Groups
-* Network ACLs
-* KMS
-* Secrets management concepts
-* Secure SSH practices
-* Linux hardening
-* Patch management
-* CI/CD security
-* Container security
-* Infrastructure security
-* Audit & logging with CloudTrail
+- IAM & least-privilege access design
+- Security Groups & Network ACLs
+- KMS and secrets management
+- Secure SSH practices & Linux hardening
+- Patch management
+- CI/CD and container security
+- Audit and logging with CloudTrail
 
 ---
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
-Focused on building infrastructure where problems can be detected before they become major incidents.
-
-* AWS CloudWatch
-* CloudWatch Metrics
-* CloudWatch Logs
-* CloudWatch Alarms
-* CloudTrail
-* Application & system logs
-* Infrastructure monitoring
-* Troubleshooting & incident analysis
+- AWS CloudWatch — Metrics, Logs, Alarms
+- CloudTrail — audit and activity logging
+- Application and system log analysis
+- Infrastructure monitoring and incident troubleshooting
 
 ---
 
-## 🐧 Linux & System Administration
+## Linux & System Administration
 
-* Ubuntu
-* CentOS
-* Linux networking
-* Users & permissions
-* SSH
-* Processes & services
-* systemd
-* Disk & filesystem management
-* EBS volume management
-* Package management
-* Bash scripting
-* Log analysis
-* Performance troubleshooting
+Ubuntu · CentOS · Linux Networking · Users & Permissions · SSH · systemd · Disk & Filesystem Management · EBS Volume Management · Package Management · Bash Scripting · Log Analysis · Performance Troubleshooting
 
 ---
 
-## 🧰 Tech Stack
+## Virtualization & On-Premises Infrastructure
 
-<p align="center">
+Building and managing on-prem and hybrid infrastructure alongside cloud environments, bridging traditional virtualization with modern cloud practices.
 
-<img src="https://skillicons.dev/icons?i=aws,linux,ubuntu,docker,kubernetes,terraform,ansible,jenkins,git,github,bash" />
+| Category | Tools & Concepts |
+|---|---|
+| **Hypervisor** | VMware ESXi — host configuration, resource pools, clusters |
+| **Management** | VMware vCenter Server — centralized administration, vMotion, DRS, HA |
+| **Storage & HCI** | vSAN, shared storage design, datastore management |
+| **Hyperconverged Platform** | Sangfor Cloud (HCI) — compute, storage, and network virtualization on a unified platform |
+| **Networking** | Virtual switches (vSwitch/dvSwitch), VLANs, virtual network design |
+| **Operations** | Snapshots, templates & cloning, backup & disaster recovery, resource monitoring |
+| **Migration** | P2V / V2V migrations, workload migration between on-prem and cloud (hybrid cloud) |
 
-</p>
+**Focus areas:**
+- Deploying and maintaining ESXi hosts and vCenter-managed clusters
+- Configuring HA/DRS for workload resilience and load balancing
+- Managing hyperconverged infrastructure with Sangfor Cloud
+- Designing backup, snapshot, and disaster recovery strategies for virtualized workloads
+- Bridging on-prem virtualization with AWS for hybrid cloud architectures
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
 ### ☁️ AWS Production Infrastructure
-
-Designing production-style AWS environments using:
-
-**VPC → ALB → Auto Scaling → EC2 → RDS**
-
-with security, monitoring, logging, and high-availability practices.
-
----
+Designing production-style AWS environments: **VPC → ALB → Auto Scaling → EC2 → RDS**, with security, monitoring, logging, and high-availability practices built in.
 
 ### 🔄 CI/CD Automation
-
-Building automated pipelines using:
-
-**GitHub → Jenkins / GitHub Actions → Docker → AWS**
-
-including build, test, deployment and rollback concepts.
-
----
+Automated pipelines: **GitHub → Jenkins / GitHub Actions → Docker → AWS**, covering build, test, deployment, and rollback.
 
 ### 🏗️ Infrastructure as Code
-
-Provisioning AWS infrastructure using **Terraform**, with reusable and maintainable infrastructure configurations.
-
----
+AWS infrastructure provisioned via **Terraform**, using reusable and maintainable modules.
 
 ### 🐳 Containerized Applications
+Applications containerized with **Docker** and integrated into automated deployment pipelines.
 
-Containerizing applications using **Docker** and integrating them with automated deployment pipelines.
+### 🖥️ Hybrid Virtualization Infrastructure
+Managing on-prem virtualized environments with **VMware ESXi, vCenter, and Sangfor Cloud (HCI)**, including cluster HA/DRS configuration and workload migration toward hybrid cloud architectures with AWS.
 
 ---
 
-## 🎯 Current Learning Roadmap
+## Current Learning Roadmap
 
-```text
-AWS
- │
- ├── Infrastructure
- ├── Networking
- ├── Security
- └── Monitoring
-        │
-        ▼
-Terraform
-        │
-        ▼
-Ansible
-        │
-        ▼
-Docker
-        │
-        ▼
-CI/CD
-        │
-        ▼
-Kubernetes
-        │
-        ▼
-DevSecOps & Observability
+```mermaid
+flowchart LR
+    A[AWS<br/>Infra · Networking<br/>Security · Monitoring] --> B[Terraform]
+    B --> C[Ansible]
+    C --> D[Docker]
+    D --> E[CI/CD]
+    E --> F[Kubernetes]
+    F --> G[DevSecOps &<br/>Observability]
 ```
 
 ---
 
-## 📈 Engineering Focus
+## GitHub Statistics
 
-```text
-☁️ Cloud Infrastructure
-🏗️ Infrastructure as Code
-🔄 CI/CD Automation
-🐳 Containerization
-☸️ Kubernetes
-🔐 DevSecOps
-📊 Monitoring & Observability
-🐧 Linux Administration
-🚀 Production Reliability
-```
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=engrmalakkashif&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=engrmalakkashif&theme=tokyonight&hide_border=true" height="170"/>
+
+</div>
 
 ---
 
-## 🏆 Goals
+## Let's Connect
 
-My goal is to continuously improve my ability to:
+I'm always interested in connecting and collaborating on **Cloud, AWS, DevOps, Infrastructure, Kubernetes, Automation, and DevSecOps** projects.
 
-* Design production-ready cloud infrastructure
-* Automate repetitive operational tasks
-* Build reliable CI/CD pipelines
-* Implement Infrastructure as Code
-* Improve security and reliability
-* Troubleshoot production infrastructure
-* Build scalable and highly available systems
-* Learn and apply modern DevOps practices
+<div align="center">
 
----
+[![Email](https://img.shields.io/badge/Email-engrmalakkashif%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engrmalakkashif@gmail.com)
 
-## 📊 GitHub Statistics
+### Build • Automate • Secure • Scale
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=engrmalakkashif&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
+⭐ Thanks for visiting my profile — feel free to explore my repositories and reach out!
 
----
-
-## 🤝 Let's Connect
-
-I'm always interested in connecting and collaborating on:
-
-**Cloud ☁️ | AWS 🚀 | DevOps ⚙️ | Infrastructure 🏗️ | Kubernetes ☸️ | Automation 🔄 | DevSecOps 🔐**
-
-📧 **Email:** [engrmalakkashif@gmail.com](mailto:engrmalakkashif@gmail.com)
-
----
-
-<p align="center">
-
-### 🚀 Build • Automate • Secure • Scale
-
-**Thanks for visiting my profile!**
-
-⭐ Feel free to explore my repositories and connect with me.
-
-</p>
+</div>
