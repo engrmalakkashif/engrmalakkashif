@@ -14,14 +14,12 @@
 
 <br/>
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![AWS Certified](https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20Associate-FF9900?style=flat-square)
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square)
 ![Red Hat](https://img.shields.io/badge/Red%20Hat%20Enterprise%20Linux-EE0000?style=flat-square&logo=redhat&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
 
 </div>
 
@@ -29,20 +27,16 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Cloud Infrastructure & DevOps Engineer** who designs, automates, deploys, and maintains reliable infrastructure and application delivery platforms — in **public cloud (AWS & Azure)**, **on-premises virtualization**, and **hybrid** environments.
+I'm a **Cloud Infrastructure & DevOps Engineer** focused on designing, automating, and operating reliable infrastructure and delivery platforms across **AWS, Azure, on-premises virtualization, and hybrid environments** — with an emphasis on repeatable deployments, security by design, and operational visibility.
 
-| | Focus Area |
-|---|---|
-| ☁️ | **Multi-cloud infrastructure** on AWS and Microsoft Azure |
-| 🏗️ | **Infrastructure as Code** with Terraform and Ansible |
-| 🔄 | **CI/CD** with Azure DevOps Pipelines, Jenkins, and GitHub Actions |
-| 🐳 | **Containers & orchestration** with Docker, Kubernetes, and AKS |
-| 🎩 | **Red Hat Enterprise Linux** administration, SELinux, LVM, and automation |
-| 🖥️ | **Hybrid & on-prem** — VMware ESXi, vCenter, and Sangfor HCI |
-| 🔐 | **Security & DevSecOps** — least privilege, secrets, policy, and hardening |
-| 📊 | **Monitoring & observability** — CloudWatch, Azure Monitor, and log analytics |
+- ☁️ **Cloud** — AWS and Microsoft Azure
+- 🏗️ **Automation** — Terraform, Ansible, and CI/CD pipelines
+- 🐳 **Containers** — Docker, Kubernetes, and AKS
+- 🐧 **Linux** — RHEL, AlmaLinux, CentOS, and Ubuntu
+- 🖥️ **Virtualization** — VMware ESXi, vCenter, and Sangfor HCI
+- 🔐 **Security & Monitoring** — DevSecOps, CloudWatch, Azure Monitor, and Icinga2
 
-> 🤝 Open to collaborating on **Cloud, DevOps, and Infrastructure** projects.
+> 🏅 **AWS Certified Solutions Architect – Associate**  ·  🤝 Open to collaborating on Cloud, DevOps, and Infrastructure projects.
 
 ---
 
@@ -50,15 +44,15 @@ I'm a **Cloud Infrastructure & DevOps Engineer** who designs, automates, deploys
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,azure,redhat,terraform,ansible,kubernetes,docker,jenkins,githubactions,git,github,linux,ubuntu,bash,py,prometheus,grafana&perline=9" alt="Tech stack icons" />
+<img src="https://skillicons.dev/icons?i=aws,azure,redhat,terraform,ansible,kubernetes,docker,jenkins,githubactions,git,linux,ubuntu,bash,py,prometheus,grafana&perline=8" alt="Tech stack icons" />
 
 <br/><br/>
 
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge)
-![VMware](https://img.shields.io/badge/VMware%20ESXi%20%7C%20vCenter-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![Sangfor](https://img.shields.io/badge/Sangfor-HCI%20%7C%20Cloud-005BAC?style=for-the-badge)
-![Podman](https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white)
-![CentOS](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
+![Sangfor](https://img.shields.io/badge/Sangfor%20HCI-005BAC?style=flat-square)
+![Icinga2](https://img.shields.io/badge/Icinga2-3A9CC2?style=flat-square&logo=icinga&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 
 </div>
 
@@ -76,36 +70,52 @@ I'm a **Cloud Infrastructure & DevOps Engineer** who designs, automates, deploys
 </td>
 <td width="25%" valign="top">
 
-**🏗️ IaC & Config**
-- Terraform
-- Ansible
-- Version-controlled infra
-
-</td>
-<td width="25%" valign="top">
-
-**🔄 CI/CD**
+**🏗️ IaC & CI/CD**
+- Terraform · Ansible
 - Azure DevOps
-- Jenkins
-- GitHub Actions
+- Jenkins · GitHub Actions
 
 </td>
 <td width="25%" valign="top">
 
 **🐳 Containers**
-- Docker · Podman
+- Docker
 - Kubernetes
 - AKS · ACR
+
+</td>
+<td width="25%" valign="top">
+
+**🖥️ Virtualization**
+- VMware ESXi · vCenter
+- vSAN
+- Sangfor HCI
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**🖥️ Virtualization**
-- VMware ESXi
-- vCenter · vSAN
-- Sangfor HCI
+**🐧 Operating Systems**
+- RHEL · AlmaLinux
+- CentOS · Ubuntu
+- Bash · Python
+
+</td>
+<td valign="top">
+
+**🗄️ Databases**
+- MariaDB
+- AWS RDS
+- Azure SQL
+
+</td>
+<td valign="top">
+
+**📊 Monitoring**
+- CloudWatch
+- Azure Monitor
+- Icinga2
 
 </td>
 <td valign="top">
@@ -113,23 +123,7 @@ I'm a **Cloud Infrastructure & DevOps Engineer** who designs, automates, deploys
 **🔐 Security**
 - IAM · Entra ID
 - KMS · Key Vault
-- Defender for Cloud
-
-</td>
-<td valign="top">
-
-**📊 Observability**
-- CloudWatch
-- Azure Monitor
-- Log Analytics
-
-</td>
-<td valign="top">
-
-**🐧 Systems**
-- RHEL · CentOS · Ubuntu
-- Bash · Python
-- Networking
+- SELinux · firewalld
 
 </td>
 </tr>
@@ -137,260 +131,102 @@ I'm a **Cloud Infrastructure & DevOps Engineer** who designs, automates, deploys
 
 ---
 
-## ☁️ Cloud & Infrastructure
+## ☁️ Cloud Platforms
 
-<details open>
-<summary><b>🟠 Amazon Web Services (AWS)</b></summary>
-<br/>
+Designing and operating workloads on both major clouds, with a focus on network isolation, least-privilege access, and high availability.
 
-| Category | Services |
-|---|---|
-| **Compute** | EC2, Auto Scaling Groups, Launch Templates |
-| **Networking** | VPC, Public/Private Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups, Network ACLs, Application Load Balancer |
-| **Storage & Database** | S3, EBS, RDS |
-| **Security & Management** | IAM, KMS, CloudTrail, CloudWatch, Route 53 |
-
-</details>
-
-<details open>
-<summary><b>🔵 Microsoft Azure</b></summary>
-<br/>
-
-| Category | Services |
-|---|---|
-| **Compute** | Virtual Machines, Virtual Machine Scale Sets (VMSS), Availability Sets & Zones, Azure App Service |
-| **Networking** | Virtual Network (VNet), Subnets, NSGs, Route Tables (UDR), NAT Gateway, VNet Peering, Azure Load Balancer, Application Gateway, Azure DNS, Azure Bastion, VPN Gateway |
-| **Storage & Database** | Blob Storage, Managed Disks, Azure Files, Azure SQL Database, Azure Database for MySQL / PostgreSQL |
-| **Identity & Security** | Microsoft Entra ID (Azure AD), Azure RBAC, Managed Identities, Key Vault, Microsoft Defender for Cloud, Azure Policy |
-| **Containers** | Azure Kubernetes Service (AKS), Azure Container Registry (ACR), Azure Container Instances |
-| **Monitoring** | Azure Monitor, Log Analytics, Application Insights, Activity Log, Azure Alerts |
-| **Governance** | Management Groups, Subscriptions, Resource Groups, Tags, Cost Management |
-
-</details>
-
-<details>
-<summary><b>🔁 AWS ↔ Azure Service Mapping</b></summary>
-<br/>
-
-| Capability | AWS | Azure |
+| | AWS | Azure |
 |---|---|---|
-| Virtual machines | EC2 | Virtual Machines |
-| Autoscaling | Auto Scaling Groups | VM Scale Sets |
-| Virtual network | VPC | VNet |
-| Network firewalling | Security Groups / NACLs | NSGs |
-| Load balancing (L7) | Application Load Balancer | Application Gateway |
-| Object storage | S3 | Blob Storage |
-| Block storage | EBS | Managed Disks |
-| Managed database | RDS | Azure SQL / Azure Database |
-| Identity & access | IAM | Entra ID + Azure RBAC |
-| Secrets & keys | KMS | Key Vault |
-| Audit logging | CloudTrail | Activity Log |
-| Monitoring | CloudWatch | Azure Monitor / Log Analytics |
-| DNS | Route 53 | Azure DNS |
-| Kubernetes | EKS | AKS |
-| Container registry | ECR | ACR |
-| Infrastructure as Code | Terraform | Terraform |
+| **Compute** | EC2, Auto Scaling Groups, Launch Templates | Virtual Machines, VM Scale Sets, App Service |
+| **Networking** | VPC, subnets, route tables, Internet / NAT Gateway, Security Groups, NACLs, ALB, Route 53 | VNet, subnets, UDRs, NAT Gateway, NSGs, Load Balancer, Application Gateway, Bastion, Azure DNS, VPN Gateway |
+| **Storage & Data** | S3, EBS, RDS | Blob Storage, Managed Disks, Azure Files, Azure SQL |
+| **Identity & Security** | IAM, KMS | Entra ID, Azure RBAC, Managed Identities, Key Vault, Defender for Cloud, Azure Policy |
+| **Containers** | ECR, EKS | ACR, AKS |
+| **Monitoring & Audit** | CloudWatch, CloudTrail | Azure Monitor, Log Analytics, Application Insights, Activity Log |
 
-</details>
+<sub>**Azure governance:** Management Groups · Subscriptions · Resource Groups · Tags · Cost Management</sub>
 
 ---
 
 ## 🔄 DevOps & CI/CD
 
-| Platform | What I Work With |
+Automated pipelines that take code from commit to production with testing, security scanning, approval gates, and rollback.
+
+| Platform | Focus |
 |---|---|
-| **Git, GitHub & Azure Repos** | Branching strategies, pull requests, branch policies, code reviews |
-| **Azure DevOps** | Pipelines (YAML & Classic), Repos, Boards, Artifacts, Environments, Service Connections, Variable Groups, Approvals & Gates |
+| **Azure DevOps** | YAML & Classic Pipelines, Repos, Boards, Artifacts, Environments, Service Connections, Approvals & Gates |
 | **Jenkins** | Declarative pipelines, agents, credentials, webhooks |
 | **GitHub Actions** | Workflows, reusable actions, secrets, OIDC to cloud |
-
-- Automated build, test, security scan, and deployment
-- Deployment strategies (rolling, blue/green) and rollback practices
-- Multi-stage pipelines with environment approvals (dev → stage → prod)
-- Production-grade deployment workflows
+| **Git** | Branching strategies, pull requests, branch policies, code reviews |
 
 ```mermaid
 flowchart LR
-    subgraph S1["1 · Source & CI/CD"]
-        direction LR
-        A["👨‍💻 Developer"] --> B["GitHub /<br/>Azure Repos"] --> C["⚙️ CI/CD Pipeline<br/>Azure DevOps · Jenkins · Actions"]
-    end
-
-    subgraph S2["2 · Build & Registry"]
-        direction LR
-        D["🧪 Build · Test<br/>Security Scan"] --> E["🐳 Docker Image"] --> F["📦 ECR / ACR"]
-    end
-
-    subgraph S3["3 · Cloud Deployment"]
-        direction LR
-        G["☁️ AWS<br/>ALB → EC2 / ASG → RDS"]
-        H["🔵 Azure<br/>App Gateway → VMSS / AKS → Azure SQL"]
-    end
-
-    subgraph S4["4 · Monitoring"]
-        direction LR
-        I["📊 CloudWatch<br/>CloudTrail"]
-        J["📊 Azure Monitor<br/>Log Analytics"]
-    end
-
-    C --> D
+    A["👨‍💻 Developer"] --> B["Git Repo"]
+    B --> C["⚙️ Pipeline<br/>Build · Test · Scan"]
+    C --> D["🐳 Image<br/>ECR / ACR"]
+    D --> E["☁️ AWS"]
+    D --> F["🔵 Azure"]
+    E --> G["📊 Monitoring"]
     F --> G
-    F --> H
-    G --> I
-    H --> J
 ```
 
 ---
 
-## 🏗️ Infrastructure as Code
+## 🏗️ Infrastructure as Code & Containers
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Infrastructure is versioned and reviewable: Terraform provisions it, Ansible configures it, and containers package the applications that run on it.
 
-### Terraform
-- AWS and Azure (AzureRM) provisioning
-- Reusable, modular configurations
-- Variables, outputs, and remote state
-- S3 / Azure Storage backends
-- Environment-based infrastructure (dev / stage / prod)
-- Version-controlled infrastructure
-
-</td>
-<td width="50%" valign="top">
-
-### Ansible
-- Server provisioning and configuration management
-- Application deployment automation
-- Playbooks and roles
-- Managing RHEL, CentOS, and Ubuntu fleets
-
-</td>
-</tr>
-</table>
+| Tool | Focus |
+|---|---|
+| **Terraform** | AWS and AzureRM provisioning, reusable modules, variables and outputs, remote state, dev / stage / prod environments |
+| **Ansible** | Playbooks and roles, configuration management, application deployment across RHEL, AlmaLinux, CentOS, and Ubuntu |
+| **Docker** | Dockerfiles, Compose, networking and volumes, registries (Docker Hub, ECR, ACR) |
+| **Kubernetes** | Pods, Deployments, Services, ConfigMaps and Secrets, Ingress, Persistent Volumes, scaling — AKS *(actively building hands-on experience)* |
 
 ---
 
-## 🐳 Containers & Kubernetes
+## 🔐 Security & Monitoring
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Security is part of the delivery lifecycle, and monitoring gives early visibility into problems before users notice them.
 
-### Docker & Podman
-- Dockerfiles, images, and containers
-- Docker Compose for multi-container apps
-- Container networking and volumes
-- Podman, Buildah & Skopeo (rootless containers on RHEL)
-- Registries: Docker Hub, ECR, ACR
-
-</td>
-<td width="50%" valign="top">
-
-### Kubernetes *(actively building hands-on experience)*
-- Pods, Deployments, Services
-- ConfigMaps, Secrets, Namespaces
-- Ingress and networking
-- Persistent Volumes and application scaling
-- Managed clusters: **AKS** and EKS
-
-</td>
-</tr>
-</table>
+| Area | Tools & Practices |
+|---|---|
+| **Identity & Access** | IAM least-privilege roles, Entra ID, Azure RBAC, Managed Identities |
+| **Network Security** | Security Groups, NACLs, NSGs, Azure Bastion, Private Endpoints |
+| **Secrets & Governance** | KMS, Key Vault, Defender for Cloud, Azure Policy, CloudTrail |
+| **System Hardening** | SELinux, firewalld, SSH hardening, patch management, image scanning in CI/CD |
+| **Cloud Monitoring** | CloudWatch (metrics, logs, alarms), Azure Monitor, Log Analytics (KQL), Application Insights |
+| **Infrastructure Monitoring** | Icinga2 and Icinga Web 2 — host and service checks, notifications, distributed monitoring (master / satellite / agent), agent rollout with Ansible |
 
 ---
 
-## 🔐 Security & DevSecOps
+## 🐧 Linux & Databases
 
-> Security is part of the infrastructure and deployment lifecycle — not an afterthought.
-
-| Layer | AWS | Azure |
-|---|---|---|
-| **Identity** | IAM, least-privilege roles | Entra ID, Azure RBAC, Managed Identities |
-| **Network** | Security Groups, NACLs | NSGs, Azure Bastion, Private Endpoints |
-| **Secrets & Keys** | KMS | Key Vault |
-| **Audit** | CloudTrail | Activity Log, Log Analytics |
-
-**Azure posture & governance:** Microsoft Defender for Cloud · Azure Policy
-
-**Also:** SELinux (enforcing mode, contexts, booleans) · firewalld · secure SSH practices · Linux hardening · patch management · CI/CD and container image security scanning
-
----
-
-## 📊 Monitoring & Observability
-
-| | AWS | Azure |
-|---|---|---|
-| **Metrics & Alarms** | CloudWatch Metrics & Alarms | Azure Monitor Metrics & Alerts |
-| **Logs** | CloudWatch Logs | Log Analytics (KQL queries) |
-| **Audit & Activity** | CloudTrail | Activity Log |
-
-**Azure application telemetry:** Application Insights
-
-- Application and system log analysis
-- Infrastructure monitoring and incident troubleshooting
-
----
-
-## 🐧 Linux & System Administration
-
-`RHEL` · `CentOS` · `Ubuntu` · `Linux Networking` · `Users & Permissions` · `SSH` · `systemd` · `Disk & Filesystem Management` · `EBS / Managed Disk Management` · `Package Management` · `Bash Scripting` · `Log Analysis` · `Performance Troubleshooting`
-
-<details open>
-<summary><b>🎩 Red Hat Enterprise Linux (RHEL) Administration</b></summary>
-<br/>
+Administering enterprise Linux servers on the RHEL family (RHEL, AlmaLinux, CentOS) and Ubuntu, plus the databases that run on them.
 
 | Area | Skills |
 |---|---|
-| **Packages & Repos** | dnf / yum, RPM, local and remote repositories, AppStream & BaseOS, subscription-manager |
-| **Storage** | Partitioning (fdisk / parted), LVM (PV / VG / LV), XFS & ext4, swap, `/etc/fstab`, mounting, Stratis & VDO concepts |
-| **Users & Access** | Users, groups, sudoers, file permissions, ACLs, password aging, SSH key authentication |
-| **Security** | SELinux (modes, contexts, booleans, troubleshooting), firewalld (zones, services, ports) |
-| **Services & Boot** | systemd units & targets, GRUB, boot troubleshooting, root password recovery, tuned profiles |
-| **Networking** | NetworkManager (`nmcli`), static IPs, hostname & DNS, bonding concepts |
-| **Operations** | Cron & systemd timers, journald / rsyslog log management, process & resource management, NFS / autofs, `ssh` / `scp` / `rsync` |
-| **Containers** | Podman, rootless containers, persistent storage, systemd-managed containers |
-| **Automation** | Bash scripting, Ansible on RHEL, kickstart concepts |
-
-</details>
+| **Packages & Repos** | dnf / yum, RPM, local and remote repositories, AppStream & BaseOS |
+| **Storage** | Partitioning, LVM, XFS & ext4, swap, `/etc/fstab`, NFS / autofs |
+| **Users & Access** | Users, groups, sudoers, permissions, ACLs, SSH key authentication |
+| **Security** | SELinux (contexts, booleans, troubleshooting), firewalld (zones, services, ports) |
+| **Services & Boot** | systemd units and targets, GRUB, boot troubleshooting, tuned, cron |
+| **Networking & Logs** | NetworkManager (`nmcli`), static IPs, DNS, journald / rsyslog |
+| **MariaDB** | Installation and configuration, users and privileges, `mysqldump` backup and restore, replication concepts, basic tuning |
+| **Managed Databases** | AWS RDS, Azure SQL / Azure Database |
 
 ---
 
-## 🖥️ Virtualization & On-Premises Infrastructure
+## 🖥️ Virtualization & Hybrid Infrastructure
 
-Building and managing on-prem and hybrid infrastructure alongside cloud environments — bridging traditional virtualization with modern cloud practices.
+Managing on-prem virtualization alongside cloud environments, and migrating workloads between them.
 
-| Category | Tools & Concepts |
+| Area | Skills |
 |---|---|
-| **Hypervisor** | VMware ESXi — host configuration, resource pools, clusters |
-| **Management** | VMware vCenter Server — centralized administration, vMotion, DRS, HA |
-| **Storage & HCI** | vSAN, shared storage design, datastore management |
-| **Hyperconverged Platform** | Sangfor Cloud (HCI) — compute, storage, and network virtualization |
-| **Networking** | vSwitch / dvSwitch, VLANs, virtual network design |
-| **Operations** | Snapshots, templates & cloning, backup & disaster recovery, resource monitoring |
-| **Migration** | P2V / V2V, workload migration from on-prem to **AWS** and **Azure** (hybrid cloud) |
-
-```mermaid
-flowchart LR
-    subgraph ONPREM["🏢 On-Premises"]
-        direction TB
-        V1["VMware ESXi<br/>vCenter · vSAN"]
-        V2["Sangfor HCI"]
-    end
-
-    VPN["🔗 Site-to-Site VPN"]
-
-    subgraph CLOUD["☁️ Public Cloud"]
-        direction TB
-        AWS["AWS<br/>VPC · EC2 · RDS"]
-        AZ["Azure<br/>VNet · VMs · Azure SQL"]
-    end
-
-    V1 --> VPN
-    V2 --> VPN
-    VPN --> AWS
-    VPN --> AZ
-```
+| **VMware** | ESXi hosts, vCenter, clusters, vMotion, DRS, HA, vSAN, datastores |
+| **Sangfor HCI** | Compute, storage, and network virtualization on a unified platform |
+| **Operations** | Snapshots, templates and cloning, backup and disaster recovery, VLANs and virtual switches |
+| **Migration** | P2V / V2V and on-prem to AWS / Azure workload migration |
 
 ---
 
@@ -401,17 +237,13 @@ flowchart LR
 <td width="50%" valign="top">
 
 ### ☁️ AWS Production Infrastructure
-Production-style environment:
-**VPC → ALB → Auto Scaling → EC2 → RDS**
-with security, monitoring, logging, and high-availability practices built in.
+**VPC → ALB → Auto Scaling → EC2 → RDS** with security, monitoring, logging, and high availability built in.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔵 Azure Infrastructure Deployment
-Azure environment:
-**VNet → Application Gateway → VMSS → Azure SQL**
-with NSGs, Key Vault, RBAC, and Azure Monitor.
+**VNet → Application Gateway → VMSS → Azure SQL** with NSGs, Key Vault, RBAC, and Azure Monitor.
 
 </td>
 </tr>
@@ -419,28 +251,27 @@ with NSGs, Key Vault, RBAC, and Azure Monitor.
 <td valign="top">
 
 ### 🔄 CI/CD Automation
-**Azure DevOps / GitHub → Jenkins / Actions → Docker → AWS & Azure**
-covering build, test, deployment, approvals, and rollback.
+**Azure DevOps / GitHub → Jenkins / Actions → Docker → AWS & Azure** with build, test, approvals, and rollback.
 
 </td>
 <td valign="top">
 
-### 🏗️ Infrastructure as Code
-AWS and Azure infrastructure provisioned with **Terraform**, using reusable, modular configurations with remote state.
+### 🖥️ Hybrid Virtualization
+**VMware ESXi, vCenter, and Sangfor HCI** with HA/DRS and workload migration toward AWS and Azure.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### 🐳 Containerized Applications
-Applications containerized with **Docker**, stored in **ECR / ACR**, and integrated into automated deployment pipelines.
+### 📊 Monitoring with Icinga2
+Linux host and service monitoring with **Icinga2** and **Icinga Web 2**, alerting, and agent rollout through **Ansible**.
 
 </td>
 <td valign="top">
 
-### 🖥️ Hybrid Virtualization Infrastructure
-On-prem **VMware ESXi, vCenter, and Sangfor HCI** with HA/DRS configuration and workload migration toward hybrid architectures with **AWS and Azure**.
+### 🗄️ MariaDB on AlmaLinux
+**MariaDB** on **AlmaLinux / RHEL** with secured access, scheduled backups, and tested restore procedures.
 
 </td>
 </tr>
@@ -448,26 +279,20 @@ On-prem **VMware ESXi, vCenter, and Sangfor HCI** with HA/DRS configuration and 
 
 ---
 
-## 🗺️ Learning Roadmap
+## 🏅 Certifications & Roadmap
+
+[![AWS Certified Solutions Architect Associate](https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20%E2%80%93%20Associate-FF9900?style=for-the-badge)](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+**In progress / planned:**
+![AZ-104](https://img.shields.io/badge/Azure-AZ--104-0078D4?style=flat-square)
+![AZ-400](https://img.shields.io/badge/Azure-AZ--400-0078D7?style=flat-square)
+![CKA](https://img.shields.io/badge/Kubernetes-CKA-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 
 ```mermaid
 flowchart LR
-    A["☁️ AWS<br/>Infra · Network<br/>Security · Monitoring"] --> B["🔵 Azure<br/>VNet · VMs · Entra ID<br/>Monitor"]
-    B --> C["🏗️ Terraform"]
-    C --> D["⚙️ Ansible<br/>& RHEL Admin"]
-    D --> E["🐳 Docker"]
-    E --> F["🔄 CI/CD<br/>Azure DevOps"]
-    F --> G["☸️ Kubernetes<br/>AKS · EKS"]
-    G --> H["🔐 DevSecOps &<br/>Observability"]
+    A["☁️ AWS"] --> B["🔵 Azure"] --> C["🏗️ Terraform"] --> D["⚙️ Ansible"] --> E["🐳 Docker"] --> F["🔄 CI/CD"] --> G["☸️ Kubernetes"] --> H["🔐 DevSecOps"]
 ```
-
-### 🎯 Certifications Targeted
-
-![AWS SAA](https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=flat-square)
-![AZ-104](https://img.shields.io/badge/Azure-AZ--104%20Administrator-0078D4?style=flat-square)
-![AZ-400](https://img.shields.io/badge/Azure-AZ--400%20DevOps%20Engineer-0078D7?style=flat-square)
-![CKA](https://img.shields.io/badge/Kubernetes-CKA-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 
 ---
 
@@ -480,15 +305,7 @@ flowchart LR
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=engrmalakkashif&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide_progress=false" height="165" alt="Top Languages" />
 </a>
 
-<br/>
-
-<a href="https://github.com/engrmalakkashif">
-  <img src="https://streak-stats.demolab.com/?user=engrmalakkashif&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-</a>
-
 <br/><br/>
-
-**Contribution Heatmap**
 
 <a href="https://github.com/engrmalakkashif">
   <img src="https://ghchart.rshah.org/3FB6FF/engrmalakkashif" width="95%" alt="Contribution Graph" />
@@ -500,13 +317,13 @@ flowchart LR
 
 ## 🤝 Let's Connect
 
-I'm always interested in connecting and collaborating on **Cloud, AWS, Azure, DevOps, Infrastructure, Kubernetes, Automation, and DevSecOps** projects.
+Open to collaborating on **Cloud, DevOps, Infrastructure, Kubernetes, Automation, and DevSecOps** projects.
 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-engrmalakkashif%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engrmalakkashif@gmail.com)
 
-⭐ Thanks for visiting my profile — feel free to explore my repositories and reach out!
+<br/>
 
 <img src="./assets/footer.svg" width="100%" alt="Build, Automate, Secure, Scale" />
 
